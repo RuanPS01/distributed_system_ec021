@@ -1,6 +1,6 @@
 # Inatel - Tópicos Avançados II - Sistemas Distribuídos
 
-# Único integrante do projeto:
+## Único integrante do projeto:
     - Ruan Patrick de Souza
 ## Dependências
 - [Node.js](https://nodejs.org/en/): Interpretador JavaScript
