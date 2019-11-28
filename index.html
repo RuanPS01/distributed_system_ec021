@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        EC021 - Sistema Distribuído
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 style="text-align:center;"> Login </h1>
+        <table class="centerLogin">
+                <tr>
+                    <td>
+                        <form onsubmit="event.preventDefault();onLoginSubmit();" autocomplete="off">
+                            <div>
+                                <label>Usuário*</label><label class="validation-error hide" id="loginValidationError">Campo obrigatório*.</label>
+                                <input type="text" name="usuario" id="usuario">
+                            </div>
+                            <div>
+                                <label>Senha</label>
+                                <input type="password" name="senha" id="senha">
+                            </div>
+        
+                            <div  class="form-action-buttons">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+        </table>
+        <h1 style="text-align:center; color: dimgray;"> _____________________________________________ </h1>
+    <h1 style="text-align:center;"> Sistema </h1>
+    <table class="center">
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Título do Meme*</label><label class="validation-error hide" id="tituloValidationError">Campo obrigatório*.</label>
+                        <input type="text" name="titulo" id="titulo">
+                    </div>
+                    <div>
+                        <label>Descrição</label>
+                        <input type="text" name="descricao" id="descricao">
+                    </div>
+                    <div>
+                        <label>Ano</label>
+                        <input type="text" name="ano" id="ano">
+                    </div>
+
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="memelist">
+                    <thead>
+                        <tr>
+                            <th>Título do Meme</th>
+                            <th>Descrição</th>
+                            <th>Ano</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="./src/app.js"></script>
+</body>
+
+</html>
