@@ -19,7 +19,7 @@
 
 ## Execução
 1. Faça o clone/download do repositório.
-1. Abra a pasta ##**/src**:
+1. Abra a pasta **/src**:
 
     - Execute o comando: `npm install`
     - (Opicional) Ou execute: `npm i --save restify axios mongoose serve-static-restify -S restify-router`
