@@ -2,7 +2,7 @@ const axios = require('axios')
 
 exports.login = (req, res) => {   //////////////////////////////////////// Login
     console.log('Login')
-    const { username, password } = req
+    const { username, password } = req.body
     console.log(`Usuario ${username} e senha ${password}`)
 
     let url = "https://ec021-2019-2-av2-auth.herokuapp.com/auth/login"
@@ -41,8 +41,4 @@ exports.verifyTokenJWT = async (req, res, next) => { /////////////////// Valida√
             console.log(err.data)
             res.send(401, { Erro: "Token inv√°lido" })
         })
-}
-
-exports.hello = function(){
-    return "hello";
 }

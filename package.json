@@ -1,0 +1,28 @@
+{
+  "name": "distributed_system_ec021",
+  "version": "1.0.0",
+  "description": "## Único integrante do projeto: - Ruan Patrick de Souza ## Dependências - [Node.js](https://nodejs.org/en/): Interpretador JavaScript - [NPM](https://www.npmjs.com/): Gerenciador de pacotes Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuanPS01/distributed_system_ec021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuanPS01/distributed_system_ec021/issues"
+  },
+  "homepage": "https://github.com/RuanPS01/distributed_system_ec021#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "mongoose": "^5.7.12",
+    "restify": "^8.4.1",
+    "restify-router": "^0.5.1",
+    "serve-static-restify": "^3.0.0"
+  },
+  "devDependencies": {}
+}
